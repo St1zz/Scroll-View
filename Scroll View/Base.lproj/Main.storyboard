@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,134 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scroll_View" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CgI-Ic-84M">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l8P-IR-QfM" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1640"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LUV Is Rage 2.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkE-TG-yj4">
+                                                <rect key="frame" x="36" y="-24" width="342" height="111"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tracklist:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T59-MJ-fkM">
+                                                <rect key="frame" x="29" y="396" width="342" height="61"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Menlo-BoldItalic" family="Menlo" pointSize="28"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Luv_Is_Rage_2_cover" translatesAutoresizingMaskIntoConstraints="NO" id="oKi-zO-PtR">
+                                                <rect key="frame" x="44" y="57" width="327" height="331"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNa-rd-7qH">
+                                                <rect key="frame" x="8" y="446" width="398" height="1102"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">1.	"Two®"	
+Symere WoodsDonald CannonLyle LeDuff
+Lil Uzi VertDon CannonLeDuff
+3:05
+2.	"444+222"	
+WoodsJamaal HenryIvison Smith
+Maaly RawIke Beatz
+4:07
+3.	"Sauce It Up"	
+WoodsCannon
+Don CannonMichael Piroli[b]BeldonDidThat[b]
+3:27
+4.	"No Sleep Leak"	
+WoodsCannonKevin GomringerTim Gomringer
+Don CannonCubeatz
+3:09
+5.	"The Way Life Goes" (featuring Oh Wonder)	
+WoodsCannonSmithAnthony WestJosephine Gucht
+Don CannonIke Beatz
+3:41
+6.	"For Real"	
+WoodsKenneth SmithBobby Turner, Jr.
+DJ PluggBobby Kritical
+2:57
+7.	"Feelings Mutual"	
+WoodsEbony OshunrindeFrancis Nguyen-Tran
+WondaGurlFrancisGotHeat[a]
+3:53
+8.	"Neon Guts" (featuring Pharrell Williams)	
+WoodsPharrell Williams
+Williams	4:18
+9.	"Early 20 Rager"	
+WoodsHenry
+Maaly Raw	4:34
+10.	"UnFazed" (featuring The Weeknd)	
+WoodsAbel TesfayeJason QuennevilleCannonHenry
+DaHealaThe WeekndDon CannonMaaly Raw
+3:10
+11.	"Pretty Mami"	
+WoodsCannonRamon Ibanga, Jr.
+Don CannonIllmind
+4:24
+12.	"How to Talk"	
+WoodsOshunrinde
+WondaGurl	3:21
+13.	"X"	
+WoodsLeland WayneJordan Jenks
+Metro BoominPi'erre Bourne
+2:53
+14.	"Malfunction"	
+WoodsOshunrinde
+WondaGurl	3:19
+15.	"Dark Queen"	
+WoodsHenryMasamune Kudo
+Maaly RawRex Kudo
+2:53
+16.	"XO Tour Llif3"</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1640" id="c2g-xa-w4Y"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="l8P-IR-QfM" firstAttribute="top" secondItem="igi-LM-Day" secondAttribute="top" id="1aM-CZ-FbL"/>
+                                    <constraint firstItem="l8P-IR-QfM" firstAttribute="trailing" secondItem="igi-LM-Day" secondAttribute="trailing" id="GdP-HW-F96"/>
+                                    <constraint firstItem="l8P-IR-QfM" firstAttribute="width" secondItem="1cd-Ad-534" secondAttribute="width" id="Ho0-NR-FIu"/>
+                                    <constraint firstItem="l8P-IR-QfM" firstAttribute="leading" secondItem="igi-LM-Day" secondAttribute="leading" id="WEK-QA-mja"/>
+                                    <constraint firstItem="l8P-IR-QfM" firstAttribute="bottom" secondItem="igi-LM-Day" secondAttribute="bottom" constant="-10" id="XaP-dH-UyM"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="igi-LM-Day"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="1cd-Ad-534"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8Wm-fG-oQG"/>
+                        <color key="backgroundColor" red="0.7891469002" green="0.80183666939999998" blue="0.89412981270000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="CgI-Ic-84M" firstAttribute="top" secondItem="8Wm-fG-oQG" secondAttribute="top" id="Kwo-CB-lYY"/>
+                            <constraint firstItem="8Wm-fG-oQG" firstAttribute="bottom" secondItem="CgI-Ic-84M" secondAttribute="bottom" id="TDf-dz-tYQ"/>
+                            <constraint firstItem="CgI-Ic-84M" firstAttribute="leading" secondItem="8Wm-fG-oQG" secondAttribute="leading" id="pWD-1l-JMP"/>
+                            <constraint firstItem="8Wm-fG-oQG" firstAttribute="trailing" secondItem="CgI-Ic-84M" secondAttribute="trailing" id="peR-Xy-CM8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="27.536231884057973" y="83.705357142857139"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="Luv_Is_Rage_2_cover" width="300" height="300"/>
+    </resources>
 </document>
